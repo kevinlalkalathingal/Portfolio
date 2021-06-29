@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico&family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico&family=Quicksand:wght@500&family=ZCOOL+KuaiLe&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+}
+
+body .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+body .container .content .typo {
+  position: absolute;
+  left: 30px;
+  text-align: center;
+  color: #08102b;
+}
+
+body .container .content .name {
+  font-family: 'Quantico', sans-serif;
+  font-size: 110px;
+}
+
+body .container .content .work {
+  position: relative;
+  top: -60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+}
+
+body .container .content .work p:nth-of-type(1) {
+  margin-right: 30px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+body .container .content .work p:nth-of-type(2) {
+  margin-left: 30px;
+  padding: 5px;
+  background-color: #272727;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body .container .content .image {
+  position: absolute;
+  right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  z-index: -1;
+}
+
+body .container .content .image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body .container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 14vh;
+}
+
+body .container .nav .logo {
+  margin-left: 30px;
+  -webkit-transition: all .9s ease-in-out;
+  transition: all .9s ease-in-out;
+}
+
+body .container .nav .logo:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+body .container .nav .about {
+  margin-right: 30px;
+}
+
+body .container .nav .about .cv {
+  width: 16px;
+}
+
+body .container .social {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 80px;
+}
+
+body .container .social .connect {
+  width: 400px;
+  height: 40px;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container .social .connect a {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+body .container .social .connect a:hover {
+  margin-bottom: 16px;
+}
+
+body .container .social .connect img {
+  height: 25px;
+  width: 25px;
+}
+
+body .container .social .hello {
+  margin-right: 30px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  overflow: hidden;
+}
+
+body .container .social .hello a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+body .container .social .hello a:hover {
+  opacity: 0.5;
+}
+
+body .container .social .hello a:nth-child(1) {
+  -webkit-filter: hue-rotate(270deg);
+          filter: hue-rotate(270deg);
+}
+
+body .container .social .hello a span {
+  position: absolute;
+}
+
+body .container .social .hello a span:nth-child(4) {
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#272727));
+  background: linear-gradient(180deg, transparent, #272727);
+  -webkit-animation: animate2 2s linear infinite;
+          animation: animate2 2s linear infinite;
+}
+
+@-webkit-keyframes animate2 {
+  0% {
+    right: 100%;
+  }
+  100% {
+    right: -100%;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    right: 100%;
+  }
+  100% {
+    right: -100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
